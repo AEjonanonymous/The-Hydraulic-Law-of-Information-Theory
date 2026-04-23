@@ -5,12 +5,9 @@ This repository implements the **Hydraulic Law of Information Theory**, a framew
 
 ## <p align="center">Manifold Code Construct
 
-<p align="center"> grid_capacity = target_sum
+`grid_capacity = target_sum` 
 
-## <p align="center">Key Logic: Pressure-Gradient Displacement
-Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium:
-
-$$Gap = |Volume_{in} - Volume_{out}|$$
+<p align="center">pressure_differential = current_volume - grid_capacity
 
 ## <p align="center">Aperture-Integral Calculus
 The fundamental engine of this repository is the **Aperture-Integral Function**. Instead of checking every discrete second of a contact window, we integrate the area under the curve of the temporal pipe:
