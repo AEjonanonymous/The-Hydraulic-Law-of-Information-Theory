@@ -3,11 +3,13 @@
 ## <p align ="center">🏛️  The Hydraulic Law  🏛️
 This repository implements the **Hydraulic Law of Information Theory**, a framework that collapses the $N \times T$ complexity of spatiotemporal search problems. By treating data as an **incompressible fluid**, we replace stochastic pathfinding with **volumetric flow verification**.
 
-## <p align="center">Manifold Code Construct
+## <p align="center">The Hydraulic Manifold
+<div align="center">
 
-`grid_capacity = target_sum` 
+`grid_capacity = target_sum`
 
-<p align="center">pressure_differential = current_volume - grid_capacity
+`pressure_differential = current_volume - grid_capacity`
+</div>
 
 ## <p align="center">Aperture-Integral Calculus
 The fundamental engine of this repository is the **Aperture-Integral Function**. Instead of checking every discrete second of a contact window, we integrate the area under the curve of the temporal pipe:
