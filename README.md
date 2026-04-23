@@ -4,12 +4,11 @@
 This repository implements the **Hydraulic Law of Information Theory**, a framework that collapses the $N \times T$ complexity of spatiotemporal search problems. By treating data as an **incompressible fluid**, we replace stochastic pathfinding with **volumetric flow verification**.
 
 ## <p align="center">Manifold Code Construct
-The core logic is implemented in a Hydraulic Engine that validates if a volume of data can pass through a sequence of valves (apertures) and reservoirs (buffers).
+
+<p align="center"> grid_capacity = target_sum
 
 ## <p align="center">Key Logic: Pressure-Gradient Displacement
 Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium:
-
-### Residual Pressure: 
 
 $$Gap = |Volume_{in} - Volume_{out}|$$
 
