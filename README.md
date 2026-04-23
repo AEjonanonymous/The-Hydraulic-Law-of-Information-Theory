@@ -39,14 +39,14 @@ theorem lunar_delivery_ensurance
 
 ## 📁 Repository Contents
 
-### Mathematical Foundation & Hydraulic Logic
+### ⚙️ Hydraulic Logic
 * **The Hydraulic Law of Information Theory.pdf** — Foundational manuscript explaining Aperture-Integral Calculus.
 * `Deterministic_Law_of_Data_Movement.lean` — Formal Lean 4 proof of deterministic delivery.
 * `hydraulic_valve.py` — Models rigid environments where constraints squeeze logical force into valid paths.
 * `proof_of_incompressibility.py` — Demonstrates NP-Hard sum-finding as a rigid lock where excess volume creates internal grid pressure.
 * `proof_of_mechanical_advantage.py` — Simulates a high-pressure hydraulic jack distributing logical force across billion-variable systems.
 
-### Functional NP-Hard Solvers
+### 📱 Functional NP-Hard Solvers
 The following solvers demonstrate the application of hydraulic pressure and incompressible flow to classic search problems:
 * `partition_problem_solver.py` — Resolves the partition problem by treating two sides of a scale as connected cylinders.
 * `minimum_vertex_cover_solver.py` — Models vertex cover as a hydraulic press forcing cameras into high-pressure intersects.
