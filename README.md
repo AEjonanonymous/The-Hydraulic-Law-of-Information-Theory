@@ -1,6 +1,5 @@
 # <p align ="center"> <i>📜 The Hydraulic Law of Information Theory 📜</i>
 
-
 ## <p align ="center">🏛️  The Hydraulic Law  🏛️
 This repository implements the **Hydraulic Law of Information Theory**, a framework that collapses the $N \times T$ complexity of spatiotemporal search problems. By treating data as an **incompressible fluid**, we replace stochastic pathfinding with **volumetric flow verification**.
 
@@ -30,7 +29,7 @@ theorem lunar_delivery_ensurance
 
 ## 📁 Repository Contents
 
-### Mathematical Foundation (Hydraulic Logic)
+### Mathematical Foundation & Hydraulic Logic
 * `The Hydraulic Law of Information Theory.pdf` — Foundational manuscript explaining Aperture-Integral Calculus.
 * `Deterministic_Law_of_Data_Movement.lean` — **Formal Lean 4 proof** of deterministic delivery.
 * `hydraulic_valve.py` — Models rigid environments where constraints squeeze logical force into valid paths.
@@ -39,12 +38,13 @@ theorem lunar_delivery_ensurance
 
 ### Functional NP-Hard Solvers
 The following solvers demonstrate the application of hydraulic pressure and incompressible flow to classic search problems:
-* `minimum_vertex_cover_solver.py` — Models vertex cover as a hydraulic press forcing cameras into high-pressure intersects.
 * `partition_problem_solver.py` — Resolves the partition problem by treating two sides of a scale as connected cylinders.
-* `twin_prime_solver.py` — Uses a pressure sieve to mechanically filter non-prime numbers.
+* `minimum_vertex_cover_solver.py` — Models vertex cover as a hydraulic press forcing cameras into high-pressure intersects.
+* `traveling_salesperson_solver.py` —
 * `busy_beaver_solver.py` — Models Turing machine states as piston strokes to find incompressible machines.
+* `twin_prime_solver.py` — Uses a pressure sieve to mechanically filter non-prime numbers.
 
-Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium:
+Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium.
 
 ### 📦 IP Package Implementation
 The logic is deployed across high-performance software and hardware modules:
@@ -67,8 +67,9 @@ For commercial licensing inquiries, please contact:
 
 J.E. Randolph 📧 `700josh.r@gmail.com`
 
-Copyright (c) 2026 Jonathan Alan Reed 
+---
 
+Copyright (c) 2026 Jonathan Alan Reed 
 
 ![Lean 4](https://img.shields.io/badge/Proved%20in-Lean%204-purple)
 ![Information Theory](https://img.shields.io/badge/Theory-Information%20Theory-blue)
