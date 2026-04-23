@@ -1,17 +1,19 @@
 # <p align ="center"> <i>📜 The Hydraulic Law of Information Theory 📜</i>
 
 
-## <p align ="center"> The Hydraulic Law 
+## <p align ="center">🏛️  The Hydraulic Law  🏛️
 This repository implements the **Hydraulic Law of Information Theory**, a framework that collapses the $N \times T$ complexity of spatiotemporal search problems. By treating data as an **incompressible fluid**, we replace stochastic pathfinding with **volumetric flow verification**.
 
-## <p align="center"> Aperture-Integral Calculus
+## <p align="center">Aperture-Integral Calculus
 The fundamental engine of this repository is the **Aperture-Integral Function**. Instead of checking every discrete second of a contact window, we integrate the area under the curve of the temporal pipe:
 
-$$V_{total} = \sum \int_{start}^{end} (Rate - Overhead) dt$$
+$$Edge(A,B) = \int_{0}^{T} C(t) dt$$
+
+## <p align="center">Deterministic Law of Data Movement
 
 If the integrated volume ($V_{total}$) satisfies the data volume, the pipe is mathematically open, ensuring a geometric necessity of delivery.
 
-## ✅️ Formal Verification (Lean 4)
+### ✅️ Formal Verification (Lean 4)
 The reliability of this system is backed by a formal proof of soundness written in **Lean 4**. We prove that if the manifold integrity check returns `Ensured`, the data must arrive provided the physical constraints are met.
 
 ```lean
@@ -26,42 +28,37 @@ theorem lunar_delivery_ensurance
 * **Theorem `lunar_delivery_ensurance`**: Proves that for any file size, if the integrated capacity of windows is $\ge$ the volume and buffer safety is maintained, delivery is guaranteed.
 * **Inductive Path Proof**: The theorem `path_delivery_induction` proves that if a recursive check passes for a multi-hop path, the physical requirements hold for every individual hop.
 
-## Repository Contents
+## 📁 Repository Contents
 
-### Functional NP-Hard Solvers (Hydraulic Logic)
-The following solvers demonstrate the application of hydraulic pressure and incompressible flow to classic search problems:
-* `minimum_vertex_cover_solver.py` — Reimagines vertex cover as a hydraulic press forcing "cameras" into high-pressure intersections.
-* `partition_problem_solver.py` — Resolves the partition problem by treating two sides of a scale as connected cylinders.
-* `proof_of_incompressibility.py` — Demonstrates NP-Hard sum-finding as a "rigid lock" where excess volume creates internal grid pressure.
-* `proof_of_mechanical_advantage.py` — Simulates a high-pressure hydraulic jack distributing logical force across billion-variable systems.
-* `twin_prime_solver.py` — Uses a "pressure sieve" to mechanically filter non-prime numbers.
-* `busy_beaver_solver.py` — Models Turing machine states as piston strokes to find incompressible machines.
+### Hydraulic Logic
 * `hydraulic_valve.py` — Models rigid environments where constraints squeeze logical force into valid paths.
+* `proof_of_incompressibility.py` — Demonstrates NP-Hard sum-finding as a rigid lock where excess volume creates internal grid pressure.
+* `proof_of_mechanical_advantage.py` — Simulates a high-pressure hydraulic jack distributing logical force across billion-variable systems.
 
-## 📦 IP Package Implementation
+### Functional NP-Hard Solvers
+The following solvers demonstrate the application of hydraulic pressure and incompressible flow to classic search problems:
+* `minimum_vertex_cover_solver.py` — Models vertex cover as a hydraulic press forcing cameras into high-pressure intersects.
+* `partition_problem_solver.py` — Resolves the partition problem by treating two sides of a scale as connected cylinders.
+* `twin_prime_solver.py` — Uses a pressure sieve to mechanically filter non-prime numbers.
+* `busy_beaver_solver.py` — Models Turing machine states as piston strokes to find incompressible machines.
+
+### 📦 IP Package Implementation
 The logic is deployed across high-performance software and hardware modules:
-
-### Software (C++)
-The C++ header only library provides the `calculate_flux` and `solve_equilibrium` functions to resolve manifold pressure and NP-hard search problems.
-
-### Hardware (SystemVerilog)
-The `hydraulic_manifold_core.sv` module enables parallel aperture integration on FPGA/ASIC hardware.
-* **Piston Stroke logic**: Parallel calculation of flow across multiple apertures.
-* **Ensurance Logic**: Real-time output signals (`ensured_o`) indicating if the vacuum (target volume) is satisfied.
-```systemverilog
-// FROM: hydraulic_manifold_core.sv
-always_ff @(posedge clk) begin
-    for (int i = 0; i < NUM_APERTURES; i++) begin
-        if (a_close[i] > current_time) begin
-            start_v = (a_open[i] > current_time) ? a_open[i] : current_time;
-            stage_flux[i] <= (a_close[i] - start_v) * a_rate[i];
-        end
-    end
-end
-assign ensured_o = (total_flux_o >= target_volume);
-```
+* `hydraulic_manifold.hpp` — Core C++ engine for volumetric flux and equilibrium calculations.
+* `hydraulic_manifold_testbench.cpp` — C++ software testbench for hydraulic engine verification.
+* `hydraulic_manifold_core.sv` — Synthesizable RTL core for parallel aperture integration.
+* `hydraulic_manifold_core_testbench.sv` — SystemVerilog hardware testbench for hydraulic manifold core verification.
 
 Standard NASA/CGR algorithms scale exponentially with time ($T$). This IP package collapses that complexity back to the physical number of nodes ($N$) by projecting time-expanded graphs into a hydraulic manifold.
+
+
+
+### Software (C++)
+
+
+### Hardware (SystemVerilog)
+
+
 
 ## ⚖️ Licensing & Usage
 
@@ -81,11 +78,6 @@ Copyright (c) 2026 Jonathan Alan Reed
 * `The Hydraulic Law of Information Theory.pdf` — Foundational manuscript explaining Aperture-Integral Calculus.
 * `Deterministic_Law_of_Data_Movement.lean` — **Formal Lean 4 proof** of deterministic delivery.
 
-### Hardware & Software Engines
-* `hydraulic_manifold_core.sv` — Synthesizable RTL core for parallel aperture integration.
-* `hydraulic_manifold.hpp` — Core C++ engine for volumetric flux and equilibrium calculations.
-* **`/rtl`** — SystemVerilog hardware testbenches for manifold verification.
-* **`/sw`** — C++ software testbenches for the hydraulic engine.
 
 ![Lean 4](https://img.shields.io/badge/Proved%20in-Lean%204-purple)
 ![Information Theory](https://img.shields.io/badge/Theory-Information%20Theory-blue)
@@ -129,7 +121,7 @@ $$Gap = |Volume_{in} - Volume_{out}|$$
 
 High-Pressure Valves: Identifying vertices or states under the most stress to prioritize computational work.
 
-$$Edge(A,B) = \int_{0}^{T} C(t) dt$$
+
 
 ## <p align="center"> Manifold Code Construct
 The core logic is implemented in a Hydraulic Engine that validates if a volume of data can pass through a sequence of valves (apertures) and reservoirs (buffers).
