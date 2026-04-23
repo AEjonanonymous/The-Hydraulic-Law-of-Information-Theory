@@ -3,6 +3,16 @@
 ## <p align ="center">🏛️  The Hydraulic Law  🏛️
 This repository implements the **Hydraulic Law of Information Theory**, a framework that collapses the $N \times T$ complexity of spatiotemporal search problems. By treating data as an **incompressible fluid**, we replace stochastic pathfinding with **volumetric flow verification**.
 
+## <p align="center">Manifold Code Construct
+The core logic is implemented in a Hydraulic Engine that validates if a volume of data can pass through a sequence of valves (apertures) and reservoirs (buffers).
+
+## <p align="center">Key Logic: Pressure-Gradient Displacement
+Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium:
+
+### Residual Pressure: 
+
+$$Gap = |Volume_{in} - Volume_{out}|$$
+
 ## <p align="center">Aperture-Integral Calculus
 The fundamental engine of this repository is the **Aperture-Integral Function**. Instead of checking every discrete second of a contact window, we integrate the area under the curve of the temporal pipe:
 
@@ -40,7 +50,8 @@ theorem lunar_delivery_ensurance
 The following solvers demonstrate the application of hydraulic pressure and incompressible flow to classic search problems:
 * `partition_problem_solver.py` — Resolves the partition problem by treating two sides of a scale as connected cylinders.
 * `minimum_vertex_cover_solver.py` — Models vertex cover as a hydraulic press forcing cameras into high-pressure intersects.
-* `traveling_salesperson_solver.py` —
+* `tsp_solver50.py` —
+* `tsp_solver5000.py` —
 * `busy_beaver_solver.py` — Models Turing machine states as piston strokes to find incompressible machines.
 * `twin_prime_solver.py` — Uses a pressure sieve to mechanically filter non-prime numbers.
 
@@ -77,15 +88,3 @@ Copyright (c) 2026 Jonathan Alan Reed
 ![SystemVerilog](https://img.shields.io/badge/Hardware-SystemVerilog-darkgreen)
 ![Python](https://img.shields.io/badge/Solvers-Python-yellow)
 ![License](https://img.shields.io/badge/License-AGPL%203.0-red)
-
-## Key Logic: Pressure-Gradient Displacement
-Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium:
-
-Residual Pressure: 
-
-$$Gap = |Volume_{in} - Volume_{out}|$$
-
-High-Pressure Valves: Identifying vertices or states under the most stress to prioritize computational work.
-
-## <p align="center"> Manifold Code Construct
-The core logic is implemented in a Hydraulic Engine that validates if a volume of data can pass through a sequence of valves (apertures) and reservoirs (buffers).
