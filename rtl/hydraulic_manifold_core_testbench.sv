@@ -2,6 +2,7 @@
  * HYDRAULIC MANIFOLD: VERILOG TESTBENCH
  * Copyright (c) 2026 Jonathan Alan Reed
  * LICENSE: GNU Affero General Public License v3.0 (AGPL-3.0)
+ * Include: hydraulic_manifold_core.sv
  */
 
 `timescale 1ns / 1ps
