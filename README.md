@@ -13,7 +13,7 @@ $$Edge(A,B) = \int_{0}^{T} C(t) dt$$
 
 If the integrated volume ($V_{total}$) satisfies the data volume, the pipe is mathematically open, ensuring a geometric necessity of delivery.
 
-### ✅️ Formal Verification (Lean 4)
+## ✅️ Formal Verification (Lean 4)
 The reliability of this system is backed by a formal proof of soundness written in **Lean 4**. We prove that if the manifold integrity check returns `Ensured`, the data must arrive provided the physical constraints are met.
 
 ```lean
@@ -30,7 +30,9 @@ theorem lunar_delivery_ensurance
 
 ## 📁 Repository Contents
 
-### Hydraulic Logic
+### Mathematical Foundation (Hydraulic Logic)
+* `The Hydraulic Law of Information Theory.pdf` — Foundational manuscript explaining Aperture-Integral Calculus.
+* `Deterministic_Law_of_Data_Movement.lean` — **Formal Lean 4 proof** of deterministic delivery.
 * `hydraulic_valve.py` — Models rigid environments where constraints squeeze logical force into valid paths.
 * `proof_of_incompressibility.py` — Demonstrates NP-Hard sum-finding as a rigid lock where excess volume creates internal grid pressure.
 * `proof_of_mechanical_advantage.py` — Simulates a high-pressure hydraulic jack distributing logical force across billion-variable systems.
@@ -42,6 +44,8 @@ The following solvers demonstrate the application of hydraulic pressure and inco
 * `twin_prime_solver.py` — Uses a pressure sieve to mechanically filter non-prime numbers.
 * `busy_beaver_solver.py` — Models Turing machine states as piston strokes to find incompressible machines.
 
+Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium:
+
 ### 📦 IP Package Implementation
 The logic is deployed across high-performance software and hardware modules:
 * `hydraulic_manifold.hpp` — Core C++ engine for volumetric flux and equilibrium calculations.
@@ -51,18 +55,9 @@ The logic is deployed across high-performance software and hardware modules:
 
 Standard NASA/CGR algorithms scale exponentially with time ($T$). This IP package collapses that complexity back to the physical number of nodes ($N$) by projecting time-expanded graphs into a hydraulic manifold.
 
-
-
-### Software (C++)
-
-
-### Hardware (SystemVerilog)
-
-
-
 ## ⚖️ Licensing & Usage
 
-The **Gardner Logic Bridge IP Core** is available under a dual-licensing model to balance public verification with industrial deployment.
+The **Hydraulic Manifold IP Core** is available under a dual-licensing model to balance public verification with industrial deployment.
 
 * **Open Source (AGPL-3.0)**: For academic research, open-source infrastructure, and public verification of mathematical identities.
 * **Commercial License**: Required for proprietary commercial use.
@@ -74,10 +69,6 @@ J.E. Randolph 📧 `700josh.r@gmail.com`
 
 Copyright (c) 2026 Jonathan Alan Reed 
 
-### Core Mathematical Foundation
-* `The Hydraulic Law of Information Theory.pdf` — Foundational manuscript explaining Aperture-Integral Calculus.
-* `Deterministic_Law_of_Data_Movement.lean` — **Formal Lean 4 proof** of deterministic delivery.
-
 
 ![Lean 4](https://img.shields.io/badge/Proved%20in-Lean%204-purple)
 ![Information Theory](https://img.shields.io/badge/Theory-Information%20Theory-blue)
@@ -85,32 +76,6 @@ Copyright (c) 2026 Jonathan Alan Reed
 ![SystemVerilog](https://img.shields.io/badge/Hardware-SystemVerilog-darkgreen)
 ![Python](https://img.shields.io/badge/Solvers-Python-yellow)
 ![License](https://img.shields.io/badge/License-AGPL%203.0-red)
-
-```systemverilog
-// Parallel Aperture Integration (The Piston Stroke)
-always_ff @(posedge clk) begin
-    for (int i = 0; i < NUM_APERTURES; i++) begin
-        if (a_close[i] > current_time) begin
-            start_v = (a_open[i] > current_time) ? a_open[i] : current_time;
-            stage_flux[i] <= (a_close[i] - start_v) * a_rate[i];
-        end
-    end
-end
-assign ensured_o = (total_flux_o >= target_volume);
-```
-
-```c++
-static double calculate_flux(const std::vector<Aperture>& apertures, double current_time) {
-    double v_total = 0.0;
-    for (const auto& a : apertures) {
-        if (a.close > current_time) {
-            double start = std::max(a.open, current_time);
-            v_total += (a.close - start) * a.flow_rate;
-        }
-    }
-    return v_total;
-}
-```
 
 ## Key Logic: Pressure-Gradient Displacement
 Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium:
@@ -121,29 +86,5 @@ $$Gap = |Volume_{in} - Volume_{out}|$$
 
 High-Pressure Valves: Identifying vertices or states under the most stress to prioritize computational work.
 
-
-
 ## <p align="center"> Manifold Code Construct
 The core logic is implemented in a Hydraulic Engine that validates if a volume of data can pass through a sequence of valves (apertures) and reservoirs (buffers).
-
-C++ Manifold Logic 
-
-```c++
-struct Aperture {
-    double open;
-    double close;
-    double flow_rate;
-};
-
-// Collapses N x T -> N by calculating total available volume (Flux)
-static double calculate_flux(const std::vector<Aperture>& apertures, double current_time) {
-    double v_total = 0.0;
-    for (const auto& a : apertures) {
-        if (a.close > current_time) {
-            double start = std::max(a.open, current_time);
-            v_total += (a.close - start) * a.flow_rate;
-        }
-    }
-    return v_total;
-}
-```
