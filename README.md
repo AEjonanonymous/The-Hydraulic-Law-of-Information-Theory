@@ -1,7 +1,7 @@
 # <p align ="center"> <i>📜 The Hydraulic Law of Information Theory 📜</i>
 
 ## <p align ="center">🏛️  The Hydraulic Law  🏛️
-This repository implements the **Hydraulic Law of Information Theory**, a framework that collapses the $N \times T$ complexity of spatiotemporal search problems. By treating data as an **incompressible fluid**, we replace stochastic pathfinding with **volumetric flow verification**.
+This repository implements the **Hydraulic Law of Information Theory**, a framework that collapses the $N \times T$ complexity of spatiotemporal search problems. By treating code as an **incompressible fluid**, we replace stochastic pathfinding with **volumetric flow verification**.
 
 ## <p align="center">The Hydraulic Manifold
 <div align="center">
