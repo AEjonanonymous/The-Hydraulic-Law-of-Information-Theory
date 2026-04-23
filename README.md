@@ -22,7 +22,7 @@ $$Edge(A,B) = \int_{0}^{T} C(t) dt$$
 
 If the integrated volume ($V_{total}$) satisfies the data volume, the pipe is mathematically open, ensuring a geometric necessity of delivery.
 
-## ✅️ Formal Verification (Lean 4)
+## ✅️ Formal Verification in Lean 4 Web
 The reliability of this system is backed by a formal proof of soundness written in **Lean 4**. We prove that if the manifold integrity check returns `Ensured`, the data must arrive provided the physical constraints are met.
 
 ```lean
@@ -40,7 +40,7 @@ theorem lunar_delivery_ensurance
 ## 📁 Repository Contents
 
 ### ⚙️ Hydraulic Logic
-* **The Hydraulic Law of Information Theory.pdf** — Foundational manuscript explaining Aperture-Integral Calculus.
+📑 **The Hydraulic Law of Information Theory - <i>Solving the N x T Scaling Collapse and other NP-Hard Search Problems via Aperture-Integral Calculus</i>.pdf** — Foundational manuscript explaining Aperture-Integral Calculus.
 * `Deterministic_Law_of_Data_Movement.lean` — Formal Lean 4 proof of deterministic delivery.
 * `hydraulic_valve.py` — Models rigid environments where constraints squeeze logical force into valid paths.
 * `proof_of_incompressibility.py` — Demonstrates NP-Hard sum-finding as a rigid lock where excess volume creates internal grid pressure.
@@ -63,7 +63,7 @@ The logic is deployed across high-performance software and hardware modules:
 * `hydraulic_manifold_core.sv` — Synthesizable RTL core for parallel aperture integration.
 * `hydraulic_manifold_core_testbench.sv` — SystemVerilog hardware testbench for hydraulic manifold core verification.
 
-Standard NASA/CGR algorithms scale exponentially with time ($T$). This IP package collapses that complexity back to the physical number of nodes ($N$) by projecting time-expanded graphs into a hydraulic manifold.
+🛰️ Standard NASA/CGR algorithms scale exponentially with time ($T$). This IP package collapses that complexity back to the physical number of nodes ($N$) by projecting time-expanded graphs into a hydraulic manifold.
 
 ## ⚖️ Licensing & Usage
 
