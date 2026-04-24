@@ -53,7 +53,7 @@ By applying a valve construct to the apertures, we can create computational pres
 The following solvers demonstrate the application of hydraulic pressure and incompressible flow to classic search problems:
 * `partition_problem_solver.py` — Resolves the partition problem by treating two sides of a scale as connected cylinders.
 * `minimum_vertex_cover_solver.py` — Models vertex cover as a hydraulic press forcing cameras into high-pressure intersects.
-* `tsp_solver50.py` and `tsp_solver5000.py` — Applies a flow gradient to find the shortest possible route that visits a set of coordinates and returns to the start.
+* `tsp_solver50.py` and `tsp_solver5000.py` — Applies a flow gradient to the Traveling Salesperson Problem to find the shortest possible route that visits a set of coordinates and returns to the start.
 * `busy_beaver_solver.py` — Models Turing machine states as piston strokes to find incompressible machines.
 * `twin_prime_solver.py` — Uses a pressure sieve to mechanically filter non-prime numbers.
 
