@@ -47,6 +47,8 @@ theorem lunar_delivery_ensurance
 * `proof_of_incompressibility.py` — Demonstrates NP-Hard sum-finding as a rigid lock where excess volume creates internal grid pressure.
 * `proof_of_mechanical_advantage.py` — Simulates a high-pressure hydraulic jack distributing logical force across billion-variable systems.
 
+By applying a valve construct to the apertures, we can create computational pressure that forces the system toward a state of hydraulic equilibrium. In this model, finding a solution is no longer a search; it is an act of **Information Leveraging**. 
+
 ### 📱 Functional NP-Hard Solvers
 The following solvers demonstrate the application of hydraulic pressure and incompressible flow to classic search problems:
 * `partition_problem_solver.py` — Resolves the partition problem by treating two sides of a scale as connected cylinders.
@@ -55,7 +57,7 @@ The following solvers demonstrate the application of hydraulic pressure and inco
 * `busy_beaver_solver.py` — Models Turing machine states as piston strokes to find incompressible machines.
 * `twin_prime_solver.py` — Uses a pressure sieve to mechanically filter non-prime numbers.
 
-Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium.
+Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium. The solution is not found through iteration; it is revealed as the only state of geometric necessity within the manifold. 
 <div align="center">
 
 `pressure_differential = current_volume - grid_capacity`
