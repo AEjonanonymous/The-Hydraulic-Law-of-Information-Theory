@@ -3,7 +3,7 @@
 ## <p align ="center">🏛️  The Hydraulic Law  🏛️
 This repository implements the **Hydraulic Law of Information Theory**, a framework that collapses the $N \times T$ complexity of spatiotemporal search problems. By treating code as an **incompressible fluid**, we replace stochastic pathfinding with **volumetric flow verification**.
 
-## <p align="center">The Hydraulic Manifold
+## <p align="center">[ The Hydraulic Manifold ]
 <div align="center">
 
 `grid_capacity = target_sum`
