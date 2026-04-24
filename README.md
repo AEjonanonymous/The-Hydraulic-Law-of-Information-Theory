@@ -8,7 +8,6 @@ This repository implements the **Hydraulic Law of Information Theory**, a framew
 
 `grid_capacity = target_sum`
 
-`pressure_differential = current_volume - grid_capacity`
 </div>
 
 ## <p align="center">Aperture-Integral Calculus
@@ -53,6 +52,10 @@ The following solvers demonstrate the application of hydraulic pressure and inco
 * `twin_prime_solver.py` — Uses a pressure sieve to mechanically filter non-prime numbers.
 
 Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium.
+<div align="center">
+
+`pressure_differential = current_volume - grid_capacity`
+</div>
 
 ### 📦 IP Package Implementation
 The logic is deployed across high-performance software and hardware modules:
