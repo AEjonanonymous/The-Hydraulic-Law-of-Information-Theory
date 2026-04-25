@@ -50,18 +50,21 @@ theorem lunar_delivery_ensurance
 By applying a valve construct to the apertures, we can create computational pressure that forces the system toward a state of hydraulic equilibrium. In this model, finding a solution is no longer a search; it is an act of **Information Leveraging**. 
 
 ### 📱 Functional NP-Hard Solvers
-The following solvers demonstrate the application of hydraulic pressure and incompressible flow to classic search problems:
+The following solvers demonstrate the application of hydraulic pressure and incompressible flow to classic search problems.
 * `partition_problem_solver.py` — Resolves the partition problem by treating two sides of a scale as connected cylinders.
 * `minimum_vertex_cover_solver.py` — Models vertex cover as a hydraulic press forcing cameras into high-pressure intersects.
 * `tsp_solver50.py` and `tsp_solver5000.py` — Applies a flow gradient to the Traveling Salesperson Problem to find the shortest possible route that visits a set of coordinates and returns to the start.
 * `busy_beaver_solver.py` — Models Turing machine states as piston strokes to find incompressible machines.
 * `twin_prime_solver.py` — Uses a pressure sieve to mechanically filter non-prime numbers.
 
-Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium. The solution is not found through iteration; it is revealed as the only state of geometric necessity within the manifold. 
+## <p align="center">Hydraulic Computation
+
 <div align="center">
 
 `pressure_differential = current_volume - grid_capacity`
 </div>
+
+Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium. The solution is not found through iteration; it is revealed as the only state of geometric necessity within the hydraulic manifold. 
 
 ### 📦 IP Package Implementation
 The logic is deployed across high-performance software and hardware modules:
