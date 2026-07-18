@@ -1,8 +1,8 @@
 import Lake
 open Lake DSL
 
-package «the-hydraulic-law-of-information-theory» where
+package «TheHydraulicLawOfInformationTheory» where
 
 @[default_target]
-lean_lib «the-hydraulic-law-of-information-theory» where
+lean_lib «TheHydraulicLawOfInformationTheory» where
   srcDir := "."
