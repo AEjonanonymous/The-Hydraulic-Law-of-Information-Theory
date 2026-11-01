@@ -2,9 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this research as follows."
 authors:
   - name: "Jonathan ƒ(n)"
-  orcid: 0009-0008-7345-1407
 title: "The Hydraulic Law of Information Theory: Solving the N x T Scaling Collapse and other NP-Hard Search Problems via Aperture-Integral Calculus"
 version: 1.0.0
 doi: 10.5281/zenodo.19701584
-url: github.com/AEjonanonymous/The-Hydraulic-Law-of-Information-Theory
 date-released: 2026-04-23
