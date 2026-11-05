@@ -66,6 +66,8 @@ The following solvers demonstrate the application of hydraulic pressure and inco
 
 Instead of exhaustive searching, our solvers follow pressure gradients to find states of equilibrium. The solution is not found through iteration; it is revealed as the only state of geometric necessity within the hydraulic manifold. 
 
+* `hydraulic_law_demo.py`
+
 ```Python3
 import time
 
